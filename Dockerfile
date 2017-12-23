@@ -5,7 +5,8 @@ MAINTAINER Dao Anh Dung <dung13890@gmail.com>
 ENV DEBIAN_FRONTEND noninteractive
 
 # Install hugo
-RUN apt-get install hugo
+RUN apt-get update && apt-get install -y \
+    hugo
 
 RUN usermod -u 1000 www-data
 

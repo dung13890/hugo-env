@@ -5,7 +5,7 @@ services:
     image: debian
     volumes:
       - ./:/var/www/app
-  node:
+  hugo:
     image: dung13890/hugo-env
     restart: always
     volumes_from:

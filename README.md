@@ -9,4 +9,5 @@ Hugo blog by Go
 ```sh
 $ cd ./directory
 $ docker-compose up -d
+$ docker-compose exec hugo bash
 ```
